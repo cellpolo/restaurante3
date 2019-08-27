@@ -1,0 +1,80 @@
+{
+	
+	"productos": [
+		{
+			"precio": 20,
+			"nombre": "fanta",
+			"categoria": "Bebidas",
+			"imagen": "img/fanta.jpg"
+		},
+		{
+			"precio": 15,
+			"nombre": "sprite",
+			"categoria": "Bebidas",
+			"imagen": "img/sprite.jpg"
+		},
+		{
+			"precio": 18,
+			"nombre": "cocacola",
+			"categoria": "Bebidas",
+			"imagen": "img/coca cola.jpg"
+		},
+		{
+			"precio": 25,
+			"nombre": "sidral",
+			"categoria": "Bebidas",
+			"imagen": "img/sidral.jpg"
+		},
+		{
+			"precio": 14,
+			"nombre": "peñafiel",
+			"categoria": "Bebidas",
+			"imagen": "img/peñafiel.jpg"
+		},		
+		{
+			"precio": 70,
+			"nombre": "hamburguesa",
+			"categoria": "Comidas",
+			"imagen": "img/hamburguesa.jpg"
+			
+		},
+		{
+			"precio": 40,
+			"nombre": "papas",
+			"categoria": "Comidas",
+			"imagen": "img/papas.jpg"
+		},
+		{
+			"precio": 50,
+			"nombre": "alas",
+			"categoria": "Comidas",
+			"imagen": "img/alitas.jpg"
+		},
+		{
+			"precio": 60,
+			"nombre": "aros",
+			"categoria": "Comidas",
+			"imagen": "img/aros.jpg"
+		},
+		{
+			"precio": 30,
+			"nombre": "flan",
+			"categoria": "Postres",
+			"imagen": "img/flan.jpg"
+		},
+		{
+			"precio": 20,
+			"nombre": "pastel",
+			"categoria": "Postres",
+			"imagen": "img/pastel.jpg"
+			
+		},
+		{
+			"precio": 15,
+			"nombre": "galleta",
+			"categoria": "Postres",
+			"imagen": "img/galleta.jpg"
+		}
+	]
+}
+

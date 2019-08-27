@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="UTF-8">
+	<title>restaurante</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<body class="cyan lighten-2">
+		<nav>
+			<div class="nav-wrapper  blue darken-1">
+				<a href="#!" class="brand-logo">Menu</a>
+				<ul class="right hide-on-med-and-down">
+					
+				</ul>
+			</div>
+		</nav>
+		<!-- Modal Trigger -->
+		<div class="fixed-action-btn direction-top">
+			<a class="btn-floating btn-large red modal-trigger" href="#modal1" onclick="cTotal()">
+				
+				
+				<i class="large material-icons">mode_edit</i>
+			</a>
+				
+			  </div>
+		
+
+		<!-- Modal Structure -->
+		<div id="modal1" class="modal">
+		  <div class="modal-content" >
+			  <h4>Lista de compras</h4>
+				<p> <div id="valor" ></div></p>
+				<table id="ctotal" class="table table-bordered">
+					<thead>
+						<tr>
+							
+							<th>Producto</th>
+							<th>Cantidad</th>
+							<th>Price</th>
+							<th >action</th>
+							
+						</tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+				
+		  </div>
+		  <div class="modal-footer">
+				<a id="resultado_total"></a>
+				<a href="#!" class="button waves-effect waves-green btn-flat" onclick="pgtotal()">Pagar</a>
+				
+					<a id="div1"></a>
+				
+				<input type="number" class="entrada" min="o" value="0">
+				<!-- <input type="button" value="Cancelar"> -->
+				
+		  </div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="center-align">
+					<h4>Menú seleccionado</h4>
+				</div>
+			</div>
+			<div id="products" class="row"></div>
+		</div>
+			
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Compiled and minified JavaScript -->
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	 <a href="http://www.google.com" class="external">Enlace a Google</a>
+			<script type="text/javascript" src="index.js"></script>
+			
+			
+
+		
+	</body>
+</html>
